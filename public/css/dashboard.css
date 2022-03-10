@@ -1,0 +1,10 @@
+.form-control {
+    background-color: var(--sdcolor) !important;
+    border-radius: 20px !important;
+    color: rgb(126, 126, 126) !important;
+    
+}
+.form p {
+    letter-spacing: 0.05em;
+    font-size: 36px;
+}
