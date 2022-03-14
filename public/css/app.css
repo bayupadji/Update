@@ -469,6 +469,20 @@ input::placeholder {
     border: 0px !important;
 }
 
+.inputdoc {
+    margin-top: 1rem;
+}
+
+.unduh {
+    float: right;
+}
+
+
+/* .profil {
+    display: flex !important;
+    align-items: center !important;
+} */
+
 
 /* Mobile */
 
@@ -828,17 +842,17 @@ input::placeholder {
     }
     .sidebar {
         width: 100%;
-        height: auto;
         position: relative;
     }
-    .sidebar a {
+    /* .sidebar a {
         float: left;
-    }
-    div.content {
+    } */
+    /* div.content {
         margin-left: 0;
-    }
+    } */
     .rowside {
-        width: 100% !important;
+        /* width: 100% !important; */
+        grid-template-columns: auto !important;
     }
     .cardprofile {
         width: 100% !important;

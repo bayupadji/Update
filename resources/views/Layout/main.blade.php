@@ -31,14 +31,15 @@
         </div>
     </nav>
     <div class="row rowside" style="width: 100%;">
-        <div class="col-3 sidebar ">
-            <div class="row my-3 mx-3">
-                <div class="col d-flex justify-content-center">
+        <div class="col-sm-3 sidebar ">
+            <div class="d-flex justify-content-center text-center my-3 ">
+                <div class="">
                     <img class="profil" src="{{ asset('img/Foto.png') }}" alt="">
+                    <p class="text-center fw-bold my-2">Haris Adiyatma</p>
                 </div>
-                <div class="col d-flex justify-content-center py-3">
-                    <p class="text-center fw-bold">Haris Adiyatma</p>
-                </div>
+                {{-- <div class="col d-flex justify-content-center py-3">
+
+                </div> --}}
             </div>
 
             {{-- <ul class="link">
