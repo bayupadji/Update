@@ -17,10 +17,6 @@
                         <label for="formFileLg" class="form-label">BPJS</label>
                         <input class="form-control" id="formFileLg" type="file" name="bpjs">
                     </div>
-                    <!-- <div clas="">
-                                                                                    <label for="formFileLg" class="form-label">PAS FOTO</label>
-                                                                                    <input class="form-control" id="formFileLg" type="file" name="foto">
-                                                                                </div> -->
                     <div class="inputdoc">
                         <label for="formFileLg" class="form-label">CV</label>
                         <input class="form-control" id="formFileLg" type="file" name="">

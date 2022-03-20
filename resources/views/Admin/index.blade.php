@@ -28,7 +28,7 @@
   <!-- Nucleo Icons -->
   <link href="{{asset('Template/assets/css/nucleo-icons.css')}}"rel="stylesheet" />
   <link href="{{asset('Template/assets/css/nucleo-svg.css')}}" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" 
+	<link rel="stylesheet" type="text/css"
      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -37,8 +37,8 @@
   <link href="https://cdn.datatables.net/plug-ins/1.10.15/integration/font-awesome/dataTables.fontAwesome.css" rel="stylesheet">
   <link href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css" rel="stylesheet">
   <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
-  
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0- 
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-
      alpha/css/bootstrap.css" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="{{asset('Template/assets/css/material-dashboard.css?v=3.0.0')}}" rel="stylesheet" />
@@ -103,7 +103,7 @@
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
       <div class="mx-3">
-        <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Sign Out</a>
+        <a class="btn btn-gradient-primary text-white mt-4 w-100" style="background-color: #DB1D1D" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Sign Out</a>
       </div>
     </div>
   </aside>
@@ -224,7 +224,7 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    
+
     <div class="container-fluid py-4">
       <div class="row min-vh-80 h-100">
         <div class="col-12">
@@ -292,7 +292,7 @@
           </div>
         </div>
         <hr class="horizontal dark my-sm-4">
-        <a class="btn btn-outline-dark w-100" href="">Log Out</a>
+        <a class="" style="background-color:#DB1D1D" href="">Log Out</a>
         <!-- <div class="w-100 text-center">
           <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
           <h6 class="mt-3">Thank you for sharing!</h6>
@@ -330,7 +330,7 @@
       //   sFirst: '<i class="fa fa-step-backward"></i>',
       //   sLast: '<i class="fa fa-step-forward"></i>'
       //   }
-      //   }  
+      //   }
       //   })
     $('#tabel-1').DataTable({
       "paging": true,
@@ -339,7 +339,7 @@
       "ordering": true,
       "info": true,
       "autoWidth": true,
-      
+
       // "pagingType": 'input',
       "oPaginate": {
         sNext: '<i class="fa fa-forward"></i>',
@@ -612,12 +612,12 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="{{asset('Template/assets/js/material-dashboard.min.js?v=3.0.0')}}"></script>
-  
-	
-    
 
-	
-    
+
+
+
+
+
 </body>
 
 </html>

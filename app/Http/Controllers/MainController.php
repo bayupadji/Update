@@ -12,6 +12,12 @@ class MainController extends Controller
         # code...
         return view('Home');
     }
+    public function gologin()
+    {
+        # code...
+        return view('login');
+    }
+
     public function goAdmin()
     {
         # code...
@@ -53,7 +59,4 @@ class MainController extends Controller
         # code...
         return view('Admin.detail');
     }
-   
-    
-    
 }

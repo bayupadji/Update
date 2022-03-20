@@ -14,25 +14,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [MainController::class, 'goHome']);
+// Route::get('/', [MainController::class, 'goHome']);
 Route::get('/profile', [MainController::class, 'goProfile']);
 Route::get('/doc', [MainController::class, 'goDoc']);
 Route::get('/status', [MainController::class, 'goStatus']);
 Route::get('/pengajuan', [MainController::class, 'goPengajuan']);
 Route::get('/admin/dashboard', [MainController::class, 'goDashboard']);
+Route::get('/login', [MainController::class, 'gologin']);
 
-Route::get('/admin/detail', [MainController::class, 'goAdminDetail']);      
-       
+Route::get('/admin/detail', [MainController::class, 'goAdminDetail']);
 
 
 
-Route::get('login', function () {
-    return view('login');
+
+Route::get('/', function () {
+    return view('/Admin/main');
 });
 
 // Route::get('dashboard', function () {
 //     return view('Admin.db');
 // });
-
-
- 
